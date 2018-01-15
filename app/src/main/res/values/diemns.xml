@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 默认显示文本大小 -->
+    <dimen name="TitleSize">28sp</dimen>
+    <dimen name="FontSize">18sp</dimen>
+    <dimen name="ETSize">14sp</dimen>
+</resources>

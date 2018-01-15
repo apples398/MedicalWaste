@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainblue">#2595e1</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="BtnDisabledFontColor">@android:color/darker_gray</color>
+    <!-- 按钮未按下时的字体颜色 -->
+    <color name="BtnNormalFontColor">@android:color/white</color>
+    <!-- 按钮按下时字体颜色 -->
+    <color name="BtnPressedFontColor">@android:color/white</color>
+    <!-- View不可用时的颜色 -->
+    <color name="ViewDisabledColor">#fff7f7f7</color>
+    <!-- 亮红 -->
+    <color name="LightRed">#ffed1c24</color>
+    <!-- 深红 -->
+    <color name="DarkRed">#ffb10e16</color>
+
+    <color name="main_background">#ff33b5e5</color>
+    <color name="mainbackground">#97FFFF</color>
+</resources>

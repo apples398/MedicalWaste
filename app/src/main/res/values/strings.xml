@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Medical Waste</string>
+    <string name="menu_title">Medical Traceability System</string>
+    <string name="viewfinderview_status_text1">Place the 2D code / barcode in the frame</string>
+    <string name="viewfinderview_status_text2">You can automatically scan </string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="button_ok">OK</string>
+    <string name="company">Wuhan Yi Hai Cheng Technology Development Co., Ltd.</string>
+    <string name="website">WWW.WHYHC.NET</string>
+    <string name="menu_item1">Scan</string>
+    <string name="menu_item2">Handle</string>
+    <string name="menu_item3">Setting</string>
+    <string name="input_manually">Please enter the bar code!</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="read_write">read and write</string>
+    <string name="returned_from_app_settings_to_activity">return back to system setting</string>
+</resources>

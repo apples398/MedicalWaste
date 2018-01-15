@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">医废追溯系统</string>
+    <string name="menu_title">医废追溯系统</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+    <string name="msg_camera_framework_bug">系统摄像头异常，请重启设备！</string>
+    <string name="button_ok">确认</string>
+    <string name="company">武汉奕海诚科技开发有限公司</string>
+    <string name="website">WWW.WHYHC.NET</string>
+    <string name="menu_item1">扫码</string>
+    <string name="menu_item2">手动输码</string>
+    <string name="menu_item3">设置</string>
+    <string name="input_manually">请输入条码！</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="read_write">读写文件</string>
+    <string name="returned_from_app_settings_to_activity">返回系统设置</string>
+</resources>

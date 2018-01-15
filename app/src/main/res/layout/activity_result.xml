@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbackground"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="医院"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_0"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="转运部门"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_1"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LLStyle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="条码"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_2"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="转运人"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_3"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="部门"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_4"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LLStyle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="条码"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_5"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="交接人"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_6"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="设备名称"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_7"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LLStyle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="状态"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_8"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LLStyle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="类别码"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_9"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="废物类型"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_10"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="重量(kg)"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_11"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLStyle">
+
+            <TextView
+                style="@style/BlStyle"
+                android:background="@drawable/label_bord"
+                android:text="时间"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/FontSize" />
+
+            <EditText
+                android:id="@+id/bet_12"
+                style="@style/BetStyle"
+                android:background="@drawable/editshape"
+                android:text=""
+                android:textSize="@dimen/ETSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/BtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="返回" />
+</RelativeLayout>
